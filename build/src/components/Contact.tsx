@@ -1,4 +1,4 @@
-import { Mail, Globe, Linkedin, ExternalLink } from 'lucide-react';
+import { Mail, Globe, Linkedin, Github, ExternalLink } from 'lucide-react';
 
 const links = [
   {
@@ -16,6 +16,13 @@ const links = [
     logo: '/images/wearedevops-logo.png'
   },
   {
+    icon: Github,
+    label: 'GitHub',
+    url: 'https://github.com/DavyLss',
+    color: 'indigo',
+    logo: null
+  },
+  {
     icon: Linkedin,
     label: 'LinkedIn',
     url: 'https://www.linkedin.com/in/davy-l-4199b0159/',
@@ -27,6 +34,7 @@ const links = [
 const colorClasses: Record<string, { bg: string; border: string; text: string; glow: string }> = {
   cyan: { bg: 'bg-cyan-500/10', border: 'border-cyan-500/30', text: 'text-cyan-400', glow: 'hover:shadow-[0_0_30px_rgba(34,211,238,0.4)]' },
   blue: { bg: 'bg-blue-500/10', border: 'border-blue-500/30', text: 'text-blue-400', glow: 'hover:shadow-[0_0_30px_rgba(59,130,246,0.4)]' },
+  indigo: { bg: 'bg-indigo-500/10', border: 'border-indigo-500/30', text: 'text-indigo-400', glow: 'hover:shadow-[0_0_30px_rgba(99,102,241,0.4)]' },
   purple: { bg: 'bg-purple-500/10', border: 'border-purple-500/30', text: 'text-purple-400', glow: 'hover:shadow-[0_0_30px_rgba(168,85,247,0.4)]' }
 };
 
@@ -65,7 +73,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 mb-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             {links.map((link, index) => {
               const Icon = link.icon;
               const colors = colorClasses[link.color];
