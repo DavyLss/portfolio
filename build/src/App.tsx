@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import AISection from './components/AISection';
 import Contact from './components/Contact';
+import NeonCursor from './components/NeonCursor';
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -68,6 +69,8 @@ function App() {
           <Contact />
         </section>
       </main>
+
+      <NeonCursor />
     </div>
   );
 }

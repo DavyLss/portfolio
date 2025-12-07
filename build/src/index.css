@@ -5,6 +5,7 @@
 @layer base {
   * {
     scroll-behavior: smooth;
+    cursor: none !important;
   }
 
   body {
