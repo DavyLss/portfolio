@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .lego-brick {
+    @apply relative px-6 py-3 rounded-lg shadow-lg;
+    @apply border-t-4 border-b-2 border-l-2 border-r-2;
+    @apply transition-all duration-300;
+    @apply hover:scale-105 hover:shadow-2xl;
+  }
+
+  .lego-brick::before {
+    content: '';
+    @apply absolute -top-2 left-1/2 -translate-x-1/2;
+    @apply w-8 h-2 rounded-full;
+    @apply bg-white/20;
+  }
+
+  .lego-module {
+    @apply relative bg-slate-900/60 backdrop-blur-sm;
+    @apply border-2 border-slate-700/50 rounded-2xl;
+    @apply p-8 transition-all duration-300;
+  }
+
+  .lego-studs {
+    @apply flex gap-3 justify-center;
+  }
+
+  .lego-studs::before,
+  .lego-studs::after {
+    content: '';
+    @apply w-4 h-4 rounded-full bg-slate-700/50 border-2 border-slate-600/30;
+  }
+
+  .pipeline-node {
+    @apply relative bg-slate-900/80 backdrop-blur-sm;
+    @apply border-2 border-cyan-500/30 rounded-xl;
+    @apply px-8 py-6 text-center;
+    @apply transition-all duration-300;
+    @apply hover:border-cyan-400 hover:shadow-[0_0_25px_rgba(34,211,238,0.4)];
+  }
+
+  .pipeline-connector {
+    @apply w-12 h-0.5 bg-gradient-to-r from-cyan-500 to-blue-500;
+    @apply self-center;
+    @apply relative;
+  }
+
+  .pipeline-connector::after {
+    content: '';
+    @apply absolute right-0 top-1/2 -translate-y-1/2;
+    @apply w-2 h-2 bg-blue-500 rounded-full;
+  }
+
+  .neon-grid {
+    background-image:
+      linear-gradient(rgba(34, 211, 238, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(34, 211, 238, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
+  .lego-grid {
+    background-image:
+      repeating-linear-gradient(
+        0deg,
+        rgba(34, 211, 238, 0.03) 0px,
+        rgba(34, 211, 238, 0.03) 1px,
+        transparent 1px,
+        transparent 40px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        rgba(59, 130, 246, 0.03) 0px,
+        rgba(59, 130, 246, 0.03) 1px,
+        transparent 1px,
+        transparent 40px
+      ),
+      repeating-linear-gradient(
+        45deg,
+        rgba(168, 85, 247, 0.02) 0px,
+        rgba(168, 85, 247, 0.02) 1px,
+        transparent 1px,
+        transparent 60px
+      );
+  }
+}
+
+@layer utilities {
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient 8s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px currentColor;
+  }
+
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-950;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-cyan-500 to-blue-500 rounded-full;
+  @apply border-2 border-slate-950;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply from-cyan-400 to-blue-400;
+}
+
+::selection {
+  @apply bg-cyan-500/30 text-cyan-100;
+}
