@@ -10,7 +10,7 @@ const projects = [
     link: 'https://wearedevops.fr'
   },
   {
-    title: 'OpenWebUI + RAG',
+    title: 'ExplorIA',
     icon: Database,
     color: 'blue',
     description: 'Environnement d\'anonymisation complet avec système RAG pour le traitement intelligent de documents',
