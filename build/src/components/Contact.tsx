@@ -3,6 +3,13 @@ import { Mail, Globe, Linkedin, Github, ExternalLink } from 'lucide-react';
 const links = [
   {
     icon: Globe,
+    label: 'davy.lassechere.fr',
+    url: 'https://davy.lassechere.fr',
+    color: 'cyan',
+    logo: null
+  },
+  {
+    icon: Globe,
     label: 'blog.lassechere.fr',
     url: 'https://blog.lassechere.fr',
     color: 'cyan',
@@ -73,7 +80,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 mb-16">
             {links.map((link, index) => {
               const Icon = link.icon;
               const colors = colorClasses[link.color];

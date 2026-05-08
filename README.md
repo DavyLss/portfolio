@@ -137,6 +137,7 @@ Ce projet est sous licence propriétaire. Voir le fichier [LICENSE](./LICENSE) p
 ## 📧 Contact
 
 - **Email** : davy@lassechere.fr
+- **Site** : [davy.lassechere.fr](https://davy.lassechere.fr)
 - **Blog** : [blog.lassechere.fr](https://blog.lassechere.fr)
 - **Communauté** : [wearedevops.fr](https://wearedevops.fr)
 - **LinkedIn** : [Davy Lassechere](https://www.linkedin.com/in/davy-l-4199b0159/)
