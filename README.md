@@ -1,6 +1,6 @@
 # 🚀 Portfolio - Davy Lassechere
 
-> Portfolio personnel moderne et interactif d'un Ingénieur DevOps, Coach et Innovateur IA
+> Portfolio personnel de Davy Lassechere — DevOps, coaching technique et automatisation
 
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)](./LICENSE)
 [![React](https://img.shields.io/badge/React-18.3-blue.svg)](https://reactjs.org/)

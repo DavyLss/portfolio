@@ -5,7 +5,7 @@ const projects = [
     title: 'wearedevops.fr',
     icon: Globe,
     color: 'cyan',
-    description: 'Plateforme complète de formation DevOps avec des ressources éducatives gratuites pour la communauté',
+    description: 'Plateforme de formation DevOps avec des ressources gratuites, des contenus pédagogiques et une volonté claire de partage avec la communauté',
     tags: ['Éducation', 'DevOps', 'Communauté', 'Gratuit'],
     link: 'https://wearedevops.fr'
   },
@@ -13,7 +13,7 @@ const projects = [
     title: 'ExplorIA',
     icon: Database,
     color: 'blue',
-    description: 'Environnement d\'anonymisation complet avec système RAG pour le traitement intelligent de documents',
+    description: 'Environnement d\'anonymisation de documents combiné à un système RAG pour faciliter l\'exploitation d\'informations sensibles dans un cadre maîtrisé',
     tags: ['IA', 'LLM', 'RAG', 'Confidentialité', 'OpenWebUI'],
     link: null
   },
@@ -21,7 +21,7 @@ const projects = [
     title: 'Pipelines CI/CD avancés',
     icon: GitBranch,
     color: 'purple',
-    description: 'Architectures de pipelines complexes avec triggers, cache, validation humaine et workflows automatisés',
+    description: 'Conception de pipelines CI/CD avec validations manuelles, gestion de cache, enchaînements conditionnels et automatisations pour fiabiliser les livraisons',
     tags: ['GitLab CI', 'GitHub Actions', 'Automatisation', 'DevOps'],
     link: null
   },
@@ -29,7 +29,7 @@ const projects = [
     title: 'Plateforme de Runbooks',
     icon: Blocks,
     color: 'pink',
-    description: 'Plateforme interne de génération et d\'exécution de runbooks opérationnels automatisés',
+    description: 'Plateforme interne pensée pour générer, maintenir et exécuter des runbooks opérationnels plus facilement',
     tags: ['Automatisation', 'Opérations', 'Documentation', 'IA'],
     link: null
   },
@@ -37,7 +37,7 @@ const projects = [
     title: 'Tunnels Cloudflared',
     icon: Shield,
     color: 'indigo',
-    description: 'Implémentation d\'accès sécurisé via Cloudflare Tunnels sans exposition de ports',
+    description: 'Mise en place d\'accès sécurisés via Cloudflare Tunnels pour exposer des services sans ouvrir inutilement de ports',
     tags: ['Sécurité', 'Réseau', 'Cloudflare', 'Zero Trust'],
     link: null
   },
@@ -45,7 +45,7 @@ const projects = [
     title: 'Homelab Proxmox',
     icon: Radio,
     color: 'emerald',
-    description: 'Serveurs personnels avec stacks Docker complexes : Audiobookshelf, Ghost CMS, Kasm Workspaces, etc.',
+    description: 'Homelab Proxmox avec plusieurs stacks Docker auto-hébergées, utilisées pour tester, apprendre et faire tourner des services au quotidien',
     tags: ['Infrastructure', 'Docker', 'Auto-hébergé', 'Proxmox'],
     link: null
   }
@@ -71,7 +71,7 @@ export default function Projects() {
                 Projets notables
               </span>
             </h2>
-            <p className="text-slate-400 text-lg">Construire le futur, un commit à la fois</p>
+            <p className="text-slate-400 text-lg">Quelques réalisations qui reflètent ma façon de travailler</p>
             <div className="h-1 w-32 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto rounded-full mt-4" />
           </div>
 

@@ -48,12 +48,12 @@ export default function Hero() {
               <span className="text-sm font-bold text-white">Coach</span>
             </div>
             <div className="lego-brick bg-gradient-to-br from-purple-500 to-purple-600">
-              <span className="text-sm font-bold text-white">Innovateur IA</span>
+              <span className="text-sm font-bold text-white">IA appliquée</span>
             </div>
           </div>
 
           <p className="text-xl md:text-2xl text-slate-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Je construis le futur du DevOps : j'accompagne les équipes, j'automatise partout où c'est utile et j'explore les possibilités de l'IA pour aller plus loin.
+            J'aide les équipes à rendre leurs déploiements plus fiables, leur delivery plus fluide et leurs outils plus utiles au quotidien. J'utilise aussi l'IA quand elle apporte un vrai gain concret.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">

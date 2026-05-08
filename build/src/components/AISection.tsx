@@ -4,25 +4,25 @@ const aiCapabilities = [
   {
     icon: TestTube,
     title: 'Génération de tests',
-    description: 'Création automatisée de tests via LLMs pour une couverture complète',
+    description: "Utilisation des LLMs pour accélérer l'écriture de tests et fiabiliser les cas de validation",
     color: 'cyan'
   },
   {
     icon: FileText,
     title: 'Documentation',
-    description: 'Génération et maintenance intelligente de documentation',
+    description: "Aide à la rédaction, à la mise à jour et à la structuration de la documentation technique",
     color: 'blue'
   },
   {
     icon: BookOpen,
     title: 'Runbooks',
-    description: 'Création automatisée de runbooks pour l\'excellence opérationnelle',
+    description: "Création et amélioration de runbooks opérationnels pour les incidents et gestes récurrents",
     color: 'purple'
   },
   {
     icon: Zap,
     title: 'Automatisation pipelines',
-    description: 'Optimisation et automatisation des workflows CI/CD par l\'IA',
+    description: "Assistance sur certains workflows CI/CD quand l'IA permet d'aller plus vite sans complexifier l'existant",
     color: 'pink'
   }
 ];
@@ -60,7 +60,7 @@ export default function AISection() {
                 IA & Automatisation
               </span>
             </h2>
-            <p className="text-slate-400 text-lg">Exploiter l'intelligence artificielle pour l'excellence DevOps</p>
+            <p className="text-slate-400 text-lg">Des usages concrets de l'IA au service du DevOps</p>
             <div className="h-1 w-32 bg-gradient-to-r from-purple-500 to-cyan-500 mx-auto rounded-full mt-4" />
           </div>
 
@@ -68,9 +68,7 @@ export default function AISection() {
             <div className="lego-studs mb-6" />
             <div className="text-center">
               <p className="text-xl text-slate-300 leading-relaxed">
-                <strong className="text-purple-400">Passionné d'IA autodidacte</strong>, j'explore
-                l'intersection entre DevOps et intelligence artificielle. Je construis des systèmes
-                d'automatisation intelligents qui améliorent la productivité et la fiabilité.
+                <strong className="text-purple-400">Passionné d'IA autodidacte</strong>, je teste surtout les usages qui ont une vraie valeur sur le terrain : mieux documenter, accélérer certaines tâches répétitives et assister les équipes sans alourdir leurs outils.
               </p>
             </div>
           </div>

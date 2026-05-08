@@ -25,8 +25,8 @@ export default function Bio() {
                   <h3 className="text-2xl font-bold text-cyan-400 mb-3">Mission</h3>
                   <p className="text-slate-300 leading-relaxed">
                     DevOps & Coach chez <strong className="text-white">La Poste</strong>,
-                    j'accompagne les équipes Ops vers la culture DevOps. J'aide les équipes à livrer plus vite,
-                    de manière plus fiable, avec une meilleure observabilité grâce à l'excellence CI/CD.
+                    j'accompagne les équipes dans leurs pratiques DevOps, leurs pipelines CI/CD et leur observabilité,
+                    avec l'objectif de rendre les livraisons plus simples, plus fiables et plus sereines.
                   </p>
                 </div>
               </div>
@@ -41,8 +41,8 @@ export default function Bio() {
                 <div>
                   <h3 className="text-2xl font-bold text-blue-400 mb-3">Expertise</h3>
                   <p className="text-slate-300 leading-relaxed">
-                    Passionné d'IA autodidacte, j'exploite les LLMs pour la génération de tests, la documentation,
-                    les runbooks et l'automatisation intelligente. Je construis le futur du DevOps avec l'IA.
+                    Je m'intéresse beaucoup aux usages concrets des LLMs en DevOps : génération de tests,
+                    aide à la documentation, runbooks et automatisations ciblées quand elles font réellement gagner du temps.
                   </p>
                 </div>
               </div>
@@ -57,9 +57,8 @@ export default function Bio() {
                 <div>
                   <h3 className="text-2xl font-bold text-purple-400 mb-3">Passion</h3>
                   <p className="text-slate-300 leading-relaxed">
-                    Innovation, automatisation et amélioration continue. Créateur de
-                    <strong className="text-white"> wearedevops.fr</strong>, une plateforme éducative
-                    gratuite pour l'apprentissage DevOps et la communauté.
+                    J'aime transmettre, tester de nouvelles idées et rendre les sujets techniques plus accessibles. Créateur de
+                    <strong className="text-white"> wearedevops.fr</strong>, une plateforme éducative gratuite pensée pour apprendre et partager autour du DevOps.
                   </p>
                 </div>
               </div>
@@ -74,9 +73,9 @@ export default function Bio() {
                 <div>
                   <h3 className="text-2xl font-bold text-pink-400 mb-3">Approche</h3>
                   <p className="text-slate-300 leading-relaxed">
-                    Coaching basé sur l'organisation, l'estimation, la communication et la confiance.
+                    Mon approche repose sur l'écoute, la clarté et l'amélioration continue.
                     J'accompagne les équipes avec les principes CALMS, les Three Ways, la culture blameless
-                    et le feedback continu.
+                    et des boucles de feedback utiles au quotidien.
                   </p>
                 </div>
               </div>
@@ -90,8 +89,7 @@ export default function Bio() {
                 Je crois en <strong className="text-cyan-400">l'automatisation</strong>,
                 <strong className="text-blue-400"> la collaboration</strong> et
                 <strong className="text-purple-400"> l'apprentissage continu</strong>.
-                Mon objectif est de rendre le DevOps accessible, pratique et ludique tout en construisant
-                des systèmes fiables dont les équipes peuvent être fières.
+                Mon objectif est de construire des systèmes utiles et fiables, tout en gardant un DevOps concret, compréhensible et agréable à vivre pour les équipes.
               </p>
             </div>
           </div>
