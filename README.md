@@ -146,6 +146,6 @@ Ce projet est sous licence propriétaire. Voir le fichier [LICENSE](./LICENSE) p
 
 <div align="center">
 
-**Construit avec passion** 💙 **en React, TypeScript et Tailwind CSS**
+**Portfolio réalisé avec React, TypeScript et Tailwind CSS**
 
 </div>

@@ -121,7 +121,7 @@ export default function Contact() {
             <div className="lego-module bg-gradient-to-r from-slate-900/30 to-slate-800/30 border-slate-700/30">
               <div className="lego-studs mb-4 opacity-50" />
               <p className="text-slate-400">
-                Construit avec passion en React, TypeScript et Tailwind CSS
+                Portfolio réalisé avec React, TypeScript et Tailwind CSS
               </p>
               <p className="text-slate-500 text-sm mt-2">
                 © 2025 Davy Lassechere. Tous droits réservés.
