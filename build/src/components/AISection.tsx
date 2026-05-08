@@ -68,7 +68,7 @@ export default function AISection() {
             <div className="lego-studs mb-6" />
             <div className="text-center">
               <p className="text-xl text-slate-300 leading-relaxed">
-                <strong className="text-purple-400">Passionné d'IA autodidacte</strong>, je teste surtout les usages qui ont une vraie valeur sur le terrain : mieux documenter, accélérer certaines tâches répétitives et assister les équipes sans alourdir leurs outils.
+                Je m'intéresse à l'IA surtout pour ses usages utiles sur le terrain : mieux documenter, accélérer certaines tâches répétitives et assister les équipes sans complexifier leurs outils.
               </p>
             </div>
           </div>

@@ -56,7 +56,7 @@ export default function Contact() {
                 Me contacter
               </span>
             </h2>
-            <p className="text-slate-400 text-lg">Construisons quelque chose d'incroyable ensemble</p>
+            <p className="text-slate-400 text-lg">Vous pouvez me contacter ici</p>
             <div className="h-1 w-32 bg-gradient-to-r from-cyan-500 to-purple-500 mx-auto rounded-full mt-4" />
           </div>
 

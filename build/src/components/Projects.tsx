@@ -68,7 +68,7 @@ export default function Projects() {
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-bold mb-4">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
-                Projets notables
+                Quelques projets
               </span>
             </h2>
             <p className="text-slate-400 text-lg">Quelques réalisations qui reflètent ma façon de travailler</p>

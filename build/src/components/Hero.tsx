@@ -76,7 +76,7 @@ export default function Hero() {
           <div className="mt-16 flex justify-center gap-8">
             <div className="pipeline-node">
               <div className="text-3xl font-bold text-cyan-400">5+</div>
-              <div className="text-sm text-slate-400 mt-1">Ans d'XP</div>
+              <div className="text-sm text-slate-400 mt-1">Années d'expérience</div>
             </div>
             <div className="pipeline-connector" />
             <div className="pipeline-node">
@@ -85,8 +85,8 @@ export default function Hero() {
             </div>
             <div className="pipeline-connector" />
             <div className="pipeline-node">
-              <div className="text-3xl font-bold text-purple-400">100%</div>
-              <div className="text-sm text-slate-400 mt-1">Passion</div>
+              <div className="text-3xl font-bold text-purple-400">LLM</div>
+              <div className="text-sm text-slate-400 mt-1">Usages concrets</div>
             </div>
           </div>
         </div>

@@ -144,8 +144,8 @@ export default function Experience() {
           <div className="mt-20 lego-module bg-gradient-to-r from-slate-900/50 to-slate-800/50 border-blue-500/30 text-center">
             <div className="lego-studs mb-6" />
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              Construire le futur du DevOps, une automatisation à la fois.
-              Passionné par l'accompagnement des équipes et la création d'un changement durable.
+              J'aime travailler sur des outils utiles, fiables et simples à faire évoluer,
+              tout en aidant les équipes à progresser dans la durée.
             </p>
           </div>
         </div>
