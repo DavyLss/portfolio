@@ -1,0 +1,32 @@
+name: Deploy portfolio
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-portfolio-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Deploy to LXC 118
+    runs-on:
+      - self-hosted
+      - Linux
+      - X64
+      - portfolio-deploy
+    timeout-minutes: 15
+
+    steps:
+      - name: Trigger internal deploy
+        shell: bash
+        run: |
+          set -euo pipefail
+          ssh -n \
+            -i /home/actions/.ssh/id_ed25519_portfolio_deploy \
+            -o BatchMode=yes \
+            -o RequestTTY=no \
+            deployer@10.10.10.118
